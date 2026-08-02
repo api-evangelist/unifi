@@ -1,7 +1,27 @@
 aid: unifi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unifi.png
 name: Unifi
-description: Unifi is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Unifi Software was a self-service data platform built around an enterprise
+  data catalog, with AI-based recommendations, data discovery, and data
+  preparation tools aimed at business users. A Canaan Partners seed investment
+  (led by Maha Ibrahim), the company was acquired by Dell Boomi, which
+  announced its intent to acquire Unifi Software's data catalog and
+  preparation technology in December 2019; by mid-2020 the Unifi site had been
+  folded into Boomi. Its former domains no longer host the product —
+  unifisoftware.com does not resolve and unifiyourdata.com is parked at
+  Safenames — so no public API surface remains to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/unifi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,29 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: Acquired by Dell Boomi (announced December 2019). Former domains
+  unifisoftware.com (NXDOMAIN) and unifiyourdata.com (Safenames parking page,
+  probed 200 on 2026-07-21) are defunct; identity confirmed via canaan.com/companies/unifi
+  and Wayback Machine snapshots of unifisoftware.com (2019-12-12, 2020-06-23).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Data Catalog
+- Data Preparation
+- Self-Service Analytics
+- Big Data
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
