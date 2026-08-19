@@ -34,7 +34,7 @@ x-status-note: Acquired by Dell Boomi (announced December 2019). Former domains
   unifisoftware.com (NXDOMAIN) and unifiyourdata.com (Safenames parking page,
   probed 200 on 2026-07-21) are defunct; identity confirmed via canaan.com/companies/unifi
   and Wayback Machine snapshots of unifisoftware.com (2019-12-12, 2020-06-23).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
