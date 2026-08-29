@@ -34,6 +34,9 @@ description: >-
   unifisoftware.com does not resolve and unifiyourdata.com is parked at
   Safenames — so no public API surface remains to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/unifi/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Its former domains no longer host the product — unifisoftware.com does not resolve and unifiyourdata.com is parked at Safenames — so no public API surface remains to catalog."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
